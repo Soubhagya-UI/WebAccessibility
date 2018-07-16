@@ -1,0 +1,24 @@
+<div class="jumbotron">
+    <div class="row">
+      <div class="col-md-5 ">
+        <ul class="list-unstyled">
+          <li>
+            <form action="" class="form-horizontal">
+              <div class="form-group">
+               <input type="text" name="todotxt" id="" [(ngModel)]='task'/>
+             </div>
+             <div>
+              <button class="btn btn-sm btn-primary" (click)="addTask()">Add User</button>
+            </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="col-md-6 offset-2">
+        <ol>
+          <li *ngFor='let t of TaskList;let i = index'>{{t}} <span (click)='removeTask(i)'>X</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
