@@ -1,15 +1,19 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Web Accessibility</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" role='main'>
+
+
+  <h1> <a class="navbar-brand" href="#">Web Accessibility</a></h1>
+
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" (click)='navigateto()'>Video <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">Features</a>
+        <a class="nav-link">Adio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link">Sign Up</a>
@@ -19,4 +23,8 @@
         </li>
     </ul>
   </div>
-</nav>
+</nav>  
+
+<!-- line number 2 no need of h1
+
+main landmark is not at top lebel -->

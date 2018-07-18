@@ -16,5 +16,8 @@ export class HeaderComponent implements OnInit {
   signin(){
     this.router.navigate(['/login'])
   }
+  navigateto(){
+    this.router.navigate(['/video'])
+  }
 
 }
