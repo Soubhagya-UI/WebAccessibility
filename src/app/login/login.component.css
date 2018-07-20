@@ -4,3 +4,7 @@
     padding: 15px;
     margin: auto;
 }
+button:hover{
+    background-color: #0000FF;
+    color: white;
+}

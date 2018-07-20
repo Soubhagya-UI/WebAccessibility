@@ -1,7 +1,12 @@
 span{
     color:green;
 }
-span:hover{
-    color:red;
+span{
+    background-color: #0000FF;
+    color: white;
     text-decoration: underline;
+}
+button:hover{
+    background-color: #0000FF;
+    color: white;
 }

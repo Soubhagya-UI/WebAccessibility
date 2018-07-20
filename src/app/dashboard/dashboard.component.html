@@ -6,10 +6,11 @@
             <form action="" class="form-horizontal">
               <p>Add Some users...</p>
               <div class="form-group">
-               <input type="text" name="todotxt" id="" [(ngModel)]='task'/>
+                <!-- <label for="username">Share your names</label> -->
+               <input type="text" name="todotxt" id="username" [(ngModel)]='task' aria-label="Add some user"/>
              </div>
              <div>
-              <button class="btn btn-sm btn-primary" (click)="addTask()">Add User</button>
+              <button class="btn btn-sm" (click)="addTask()">Add User</button>
             </div>
             </form>
           </li>
