@@ -9,7 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
-import { VideoComponent } from './video/video.component'
+import { VideoComponent } from './video/video.component';
+import { TableComponent } from './table/table.component'
 
 let routes : Routes = [
   // {
@@ -31,6 +32,10 @@ let routes : Routes = [
  {
   path:"video",
   component:VideoComponent
+ },
+ {
+  path:"table",
+  component:TableComponent
  }
 
 ]
@@ -43,7 +48,8 @@ let routes : Routes = [
     LoginComponent,
     DashboardComponent,
     ErrorComponent,
-    VideoComponent
+    VideoComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

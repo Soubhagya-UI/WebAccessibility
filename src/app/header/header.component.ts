@@ -19,5 +19,8 @@ export class HeaderComponent implements OnInit {
   navigateto(){
     this.router.navigate(['/video'])
   }
+  table(){
+    this.router.navigate(['/table']);
+  }
 
 }
