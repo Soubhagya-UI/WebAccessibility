@@ -4,3 +4,8 @@ th,tr{
 h1{
     text-align: center;
 }
+caption{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
