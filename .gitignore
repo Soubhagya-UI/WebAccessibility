@@ -1,13 +1,15 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
+
 /tmp
 /out-tsc
-
+videoplayback.mp4
+dist
 # dependencies
 /node_modules
-
+/videoplayback.mp4
+/dist
 # IDEs and editors
 /.idea
 .project
