@@ -21,6 +21,5 @@ export class DashboardComponent implements OnInit {
   }
   removeTask(index){
     this.TaskList.splice(index,1);
-
   }
 }

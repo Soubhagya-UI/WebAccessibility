@@ -1,23 +1,21 @@
 <div>
-<h1>Here is the Table</h1>
+  <h1>Here is the Table</h1>
 
-
-<table class="table table-striped table-dark table-bordered table-justify" summary='Table for Name Email and Website'>
-    <caption>Showing Name Email and Website in the table</caption>
-
-  <thead>
-    <tr>
-      <th scope="col" role="columnheader">Full Name</th>
-      <th scope="col" role="columnheader">E-Mail</th>
-      <th scope="col" role="columnheader">Website</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor='let post of posts'> 
-      <td>{{post.name}}</td>
-      <td>{{post.email}}</td>
-      <td>{{post.website}}</td>
-    </tr>
-  </tbody>
-  </table>
-  </div>
+  <table class="table table-striped table-dark table-bordered table-justify" summary='Table for Name Email and Website'>
+      <caption>Showing Name Email and Website in the table</caption>
+        <thead>
+          <tr>
+            <th scope="col" role="columnheader" tabindex="0">Full Name</th>
+            <th scope="col" role="columnheader" tabindex="0">E-Mail</th>
+            <th scope="col" role="columnheader" tabindex="0">Website</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let post of posts'> 
+            <td tabindex="0">{{post.name}}</td>
+            <td tabindex="0">{{post.email}}</td>
+            <td tabindex="0">{{post.website}}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>

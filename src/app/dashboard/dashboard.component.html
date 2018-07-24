@@ -6,8 +6,8 @@
             <form action="" class="form-horizontal">
               <p>Add Some users...</p>
               <div class="form-group">
-                <!-- <label for="username">Share your names</label> -->
-               <input type="text" name="todotxt" id="username" [(ngModel)]='task' aria-label="Add some user"/>
+               <input type="text" name="todotxt" id="username"
+                [(ngModel)]='task' aria-label="Add some user" placeholder="Enter Something here" class="col-sm-10 form-contro"/>
              </div>
              <div>
               <button class="btn btn-sm" (click)="addTask()">Add User</button>
@@ -19,7 +19,7 @@
   
       <div class="col-md-6 offset-2">
         <ol>
-          <li *ngFor='let t of TaskList;let i = index'>{{t}} <span (click)='removeTask(i)'>X</span></li>
+          <li *ngFor='let t of TaskList;let i = index'>{{t}} <button class="btn btn-sm" (click)='removeTask(i)'>Delete</button></li>
         </ol>
       </div>
     </div>

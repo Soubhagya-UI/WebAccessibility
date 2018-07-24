@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
   userevent(e){
-    e.preventDefault;
+    e.preventDefault();
     let username = e.target.elements[0].value;
     let password = e.target.elements[1].value;
     
@@ -22,7 +22,6 @@ export class LoginComponent implements OnInit {
     }else {
       this.router.navigate(['/error'])
     }
-    return false;
   }
 
 }

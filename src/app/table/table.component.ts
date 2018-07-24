@@ -10,13 +10,14 @@ export class TableComponent implements OnInit {
   posts = [];
 
   constructor() { 
+    
+  }
+
+  ngOnInit() {
     fetch('https://jsonplaceholder.typicode.com/users')
     .then((res)=>res.json())
     .then((data)=>this.posts=data)
     .catch((err)=>console.log(err))
-  }
-
-  ngOnInit() {
   }
 
 

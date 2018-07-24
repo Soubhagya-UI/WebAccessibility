@@ -10,13 +10,14 @@ import { LoginComponent } from './login/login.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
 import { VideoComponent } from './video/video.component';
-import { TableComponent } from './table/table.component'
+import { TableComponent } from './table/table.component';
+import { HomeComponent } from './home/home.component'
 
 let routes : Routes = [
-  // {
-  //   path:"",
-  //   component:AppComponent
-  //  },
+  {
+    path:"",
+    component:HomeComponent
+   },
    {
     path:"login",
     component:LoginComponent
@@ -49,7 +50,8 @@ let routes : Routes = [
     DashboardComponent,
     ErrorComponent,
     VideoComponent,
-    TableComponent
+    TableComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
