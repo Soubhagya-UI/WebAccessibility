@@ -1,3 +1,7 @@
+## How to Run
+
+Clone this application, and run the command `npm install`. After installed just run it by `ng-serve -o`. 
+
 # Loginform
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
